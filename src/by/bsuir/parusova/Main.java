@@ -9,6 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         List<String> data = new ArrayList<>();
+        int indexOfItemToRemove = 2;
 
         data.add("Some first string");
         data.add("Some second string");
@@ -19,7 +20,7 @@ public class Main {
             print(str);
         }
 
-        data.remove(2);
+        data.remove(indexOfItemToRemove);
 
         for(String str : data) {
             print(str);
